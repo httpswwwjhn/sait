@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/nb.css">
+    <link rel="shortcut icon" href="img/sneakers-svgrepo-com.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16Frvr</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/image.png" alt="Logo"></a>
+            <a href="index.html"><span>Магазин кросівок</span></a>
+        </div>
+        <nav>
+            <ul>
+                 <li><a href="index.html">Головна</a></li>
+                <li><a href="del.html">Доставка</a></li>
+                <li><a href="me.html">Про мене</a></li>
+                <li><a href="aboutus.html">Про нас</a></li>
+                <li><a href="anim.html">Анімації</a></li>
+            </ul>
+        </nav>
+        </header>
+    <main class="main">
+        <div class="product-info">
+            <p class="stag">Air Trainer
+            <p>
+            <div class="price-color">
+                <span class="price">5990 грн</span>
+                <span class="color">Колір сірий</span>
+            </div>
+        </div>
+        <div class="owl-carousel">
+            <div> <img src="img/nb1.webp" alt=""> </div>
+            <div> <img src="img/nb2.webp" alt=""></div>
+            <div> <img src="img/nb3.webp" alt=""> </div>
+            <div> <img src="img/nb4.webp" alt=""> </div>
+            <div> <img src="img/nb5.webp" alt=""> </div>
+        </div>
+        <div class="demo">
+            <select id="speed">
+                <option value="" disabled selected>Виберіть розмір</option>
+                <option class="four">40</option>
+                <option class="one">41</option>
+                <option class="two">42</option>
+                <option class="three">43</option>
+                <option class="fourr">44</option>
+            </select>
+        </div>
+        <br><br><br><br>
+        <div class="add">Додати до кошика</div>
+      <div class="textt">
+            <p class="text">Детальна інформація -Взуття New Balance -  сірий (white/grey/black) <br>
+                Air Trainer<br>
+                    Матеріал: текстиль, штучна шкіра, нубук<br>
+                    Фасон взуття: низькі <br>
+                    Колір: білий <br>
+                    Утеплення: Ні <br>
+                    Код виробника: 320188-XWSS <br>
+                    ID 346092 <br>
+                    Матеріал <br>
+                    нубук <br>
+                    Нубук - це різновид шкіри з оксамитовою поверхнею, яку отримують шляхом<br>
+                    спеціального шліфування.<br>
+                    штучна шкіра<br>
+                    Штучна шкіра - це полімерний матеріал, який застосовується замість <br>натуральної шкіри.<br>
+                    текстиль<br>
+                    Текстильний матеріал добре пропускає повітря, але при цьому досить міцний<br> і стійкий до погодних умов.<br></p>
+      </div>
+            <footer>
+                <div class="social-icons">
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="img/inst.png" alt="Instagram" class="icon">
+                    </a>
+                    <a href="https://telegram.org" target="_blank">
+                        <img src="img/tg.png" alt="Telegram" class="icon">
+                    </a>
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="img/facebook.png" alt="Facebook" class="icon">
+                    </a>
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="img/youtube.png" alt="YouTube" class="icon">
+                    </a>
+                </div>
+            </footer> 
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $( function() {
+          $( "#speed" ).selectmenu();
+       
+          $( "#files" ).selectmenu();
+       
+          $( "#number" )
+            .selectmenu()
+            .selectmenu( "menuWidget" )
+              .addClass( "overflow" );
+       
+          $( "#salutation" ).selectmenu();
+        } );
+        </script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                nav: true,
+                navText: [
+                    '<div class="nav-btn left"><svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="arrow" d="M15 19l-7-7 7-7" /></svg></div>',
+                    '<div class="nav-btn right"><svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="arrow" d="M9 5l7 7-7 7" /></svg></div>'
+                ],
+                dots: false
+
+            });
+        });
+    </script>
+</body>
+
+</html>
